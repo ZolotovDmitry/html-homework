@@ -1,0 +1,38 @@
+﻿<!DOCKTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+         <legend>Регистрация</legend>
+         <p>
+             <label for="text">Логин</label>
+             <input id="text" type="text" placeholder="придумайте логин" minlength="2" maxlength="9" required>
+         </p>
+         <p>
+             <label for="email">E-mail</label>
+             <input id="email" type="email" placeholder="example@gmail.com" required>
+         </p>
+         <p>
+             <label for="password">Пароль</label>
+             <input id="password" type="password" placeholder="введите пароль" minlength="2" maxlength="9" required>
+         </p>
+         <p>
+             <label for="password-r">Повторите пароль</label>
+             <input id="password-r" type="password" placeholder="повторите пароль" minlength="2" maxlength="9" required>
+         </p>
+<!--выбираются не только картинки?перепроверить--!>
+         <p>
+             <label for="file">Загрузить аватар</label>
+             <input id="file" type="file" accept="image/*">
+         </p>
+         <p>
+             <input type="submit" value="Отправить">
+         </p>
+    </fieldset>
+    </form>
+</body>
+</html>
