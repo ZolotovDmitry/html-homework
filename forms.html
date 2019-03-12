@@ -8,12 +8,12 @@
 <fieldset>
     <legend>Регистрация водителя</legend>
         <p>
-             <label for="number">Номер телефона +7</label>
-             <input id="number" type="number" placeholder="9876543210" minlength="10" maxlength="10" required>
+             <label for="mobilenumber">Номер телефона +7</label>
+             <input id="mobilnumber" type="number" placeholder="9876543210" minlength="10" maxlength="10" required>
         </p>
         <p>
             <label for="avtoclass">Класс автомобиля</label>
-            <select id="avtoclass" size="3">
+            <select id="avtoclass">
                 <option value="1">Седан</option>
                 <option value="2">Хэтчбек</option>
                 <option value="3">Внедорожник</option>
@@ -32,25 +32,55 @@
                 <option value="16">Лимузин</option>
                 <option value="17">Мотоцикл</option>
                 <option value="18">Мопед</option>
-                <option value="19">Электромобиль</option>
+                <option value="19">Автобус</option>
+                <option value="20">Грузовой автомобиль</option>
+                <option value="21">Седельный автопоезд</option>
+                <option value="22">Тягач</option>
+                <option value="23">Погрузчик</option>
+                <option value="24">Эвакуатор</option>
+                <option value="19">Дом на колёсах</option>
+                <option value="19">купава</option>
             </select>
         </p>
+
+<!--мультипл меняет список,с раскрывающегося, как выбрать несколько эл-тов без контрола чекбоксом? зачем ставить нейм, надпись между >< не будет функциональной вообще, что можно ввести вместо неё--!>
+
         <p>
             <label for="licenseclass">Категории прав</label>
-            <select id="licenseclass" size="3" multiple>
+            <select name="select" id="licenseclass" multiple>
                 <option value="1">A</option>
                 <option value="2">B</option>
                 <option value="3">C</option>
                 <option value="4">D</option>
             </select>
+        <p>
+            <label for="numberofseats">Число пассажирских мест</label>
+            <input id="numberofseats" type="number" min="1" max="2">
         </p>
+        <p>
+        <label>Детское кресло<input type="checkbox"></label>
+        </p>
+
+<!--как можно поставить относительную дату? как изменить на дд/мм/гггг--!>
+
+        <p>
+            <label for="licensedate">Дата истечения срока действия прав</label>
+            <input id="licensedate" min="2018-12-12" max="2028-12-12" type="date">
+        </p>
+        <p>
+             <label for="caryear">Год выпуска</label>
+             <input id="caryear" type="number" placeholder="1990" minlength="2" maxlength="4" required>
+        </p>
+
+<!--как лучше сделать выпадающий список, или ответ текстовым полем--!>
+<!--где ставить min, где minlength?--!>
+         <p>
+             <label for="car">Марка автомобиля</label>
+             <input id="car" type="text" minlength="3" maxlength="13">
+         </p>
+
 <fieldset>
-класс прав
-срок действия прав
-права - категория
-машина категория
-мест в машине
-марка
+
 модель
 место для ребёнка
 запрет на разговор
@@ -58,10 +88,7 @@
 предпочтение в рассадке
 курение в машине
 религиозная атрибутика
-только своя машина?
-оформлена машина на?
-
-год выпуска
+вид деятельности
 вин?
 номер
 цвет
