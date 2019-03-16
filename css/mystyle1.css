@@ -1,3 +1,10 @@
 .nav {
-    display: inline; 
+    display: inline;
+    /*как правильно задать ширину элементу?*/
+    width: 33.333%;
+}
+/*как выставить относительный пункт папкой выше?*/
+body {
+    background-image: url(img/1.jpg");
+    background-repeat: repeat;
 }
