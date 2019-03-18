@@ -3,6 +3,9 @@
 }
 /*как выставить относительный пункт папкой выше?*/
 body {
-    background-image: url("/Users/473126/Desktop/html-homework/img/1.jpg"); 
-    background-repeat: repeat; <!--background-position: ; background-attachment: ; background-size: ;-->
+    background-image: url("/Users/473126/Desktop/html-homework/img/3.jpg");
+    background-repeat: repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 60px;
 }
