@@ -1,0 +1,34 @@
+@import url("grid.css");
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul.slider {
+    padding: 0;
+    margin: 0 0 30px;
+    list-style-type: none;
+}
+.slider li {
+    display: none;
+}
+.slider li.active {
+    display: block;
+}
+.card {
+    border: 1px solid black;
+    height: 200px;
+    margin: 5px
+}
+.cards {
+    margin-bottom: 30px;
+}
+.row {
+    display: block;
+}
+.long {
+    height: 470pt;
+}
+.up {
+    position: relative;
+    top: -318pt;
+
