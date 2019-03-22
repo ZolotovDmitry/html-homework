@@ -1,11 +1,22 @@
 ﻿.nav {
     display: inline; 
 }
-/*как выставить относительный пункт папкой выше?*/
 body {
     background-image: url("../img/wallpaper.jpeg");
     background-repeat: repeat;
     background-position: top;
     background-attachment: fixed;
     background-size: 20rem;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+article {
+    width: 800px;
+    background: whitesmoke;
+    border-radius: 10%;
+}
+ul {
+    list-style-type: none;
 }

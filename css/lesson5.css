@@ -36,12 +36,10 @@ ul.slider {
     display: block;
 }
 .slidercard {
-    background: url("../img/wallpaper.jpeg");
-    width: 100%;
-    height: auto;
-    max-width: 960px;
-    min-height: 160px;
-    background-repeat: no-repeat;
+    background-image: url("../img/wallpaper.jpeg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 20rem;
     color: whitesmoke;
     font-size: 3rem;
     /*как правильно ставить фильтры на изображения, подключенные через CSS?*/
