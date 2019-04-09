@@ -1,5 +1,24 @@
 ﻿.nav {
-    display: inline; 
+    display: inline;
+    background: rgba(2,6,2,.4);
+    float: left;
+    width: 30%;
+}
+a {
+    color: whitesmoke;
+    font-size: 1.4em;
+}
+a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+a:active {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+a:visited {
+    color: whitesmoke;
+    text-decoration: none;
 }
 body {
     background-image: url("../img/wallpaper.jpeg");
@@ -13,10 +32,11 @@ img {
     width: 200px;
 }
 article {
-    width: 800px;
+    width: 500px;
     background: whitesmoke;
     border-radius: 10%;
 }
 ul {
     list-style-type: none;
 }
+.nav {}
